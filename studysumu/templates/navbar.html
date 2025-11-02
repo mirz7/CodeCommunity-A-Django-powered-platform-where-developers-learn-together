@@ -1,0 +1,18 @@
+ {%block content%}
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <h1><a class="navbar-brand" href="/">StudySumu</a></h1>
+    
+     
+        <form method="GET" action="{% url 'home' %}">
+            <input type="text"  name="q" placeholder="Search Rooms ..."/>
+        </form>
+        <hr>
+    
+
+    </div>
+</nav>
+{%endblock content%}
