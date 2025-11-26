@@ -1,6 +1,6 @@
-# CodeCommunity---A-Django-powered-platform-where-developers-learn-together
+CodeCommunity — A Django-powered platform where developers learn together
 
-A Django-based web application where users can create study rooms, join discussions, browse topics, and collaborate with other learners in real-time.
+A Django-based web application where users can create study rooms, join discussions, browse topics, and collaborate with other learners in real time.
 
 🚀 Features
 👤 User Authentication
@@ -9,51 +9,49 @@ Login / Register system
 
 Custom user profiles
 
-Profile page showing user activity, rooms created, and messages
+View profile activity, created rooms, and messages
 
 🏠 Study Rooms
 
-Create public discussion rooms on any topic
+Create public rooms on any topic
 
-Join any room and participate
+Join and participate in ongoing discussions
 
-Room details include host, topic, number of participants, and live chat
+View room host, topic, participants, and live messages
 
 Edit or delete your own rooms
 
 💬 Real-Time Messaging
 
-Post messages inside any study room
+Post messages inside rooms
 
-Messages appear instantly
+Messages update instantly
 
 Delete your own messages
 
-Activity is shown in the sidebar
+Activity feed shows latest replies
 
 🧠 Browse Topics
 
-Sidebar with a list of topics (Java, C++, Python, Golang, etc.)
+Sidebar with topics (Java, C++, Python, Golang, etc.)
 
-Quick filters to view rooms by selected topic
+Filter rooms by selected topic
 
-Auto-updating room count for each topic
+Auto-updated room count
 
 📰 Recent Activity Feed
 
-Shows latest replies from all users
+Displays who replied, where, and when
 
-Displays who responded, where, and how long ago
-
-Useful for keeping track of ongoing discussions
+Helps track all community discussions
 
 🎨 Modern UI
 
-Clean, dark-themed interface
+Clean and dark-themed interface
 
-Responsive layout
+Responsive and user-friendly
 
-Smooth navigation experience
+Smooth navigation
 
 🔧 Tech Stack
 
@@ -61,6 +59,47 @@ Backend: Django
 
 Frontend: HTML, CSS, JavaScript
 
-Database: SQLite (default, configurable)
+Database: SQLite (default)
 
-Authentication: Django User Model (customized)
+Auth: Custom Django User Model
+
+📦 Installation & Setup
+
+Follow the steps below to run the project locally.
+
+1. Clone the repository
+git clone <your-repository-link>
+cd codecommunity
+
+2. Create a virtual environment
+python -m venv env
+source env/bin/activate     # Mac/Linux
+env\Scripts\activate        # Windows
+
+3. Install dependencies
+pip install -r requirements.txt
+
+4. Apply migrations
+python manage.py migrate
+
+5. Create a superuser (optional)
+python manage.py createsuperuser
+
+6. Run the development server
+python manage.py runserver
+
+
+Visit:
+
+http://127.0.0.1:8000/
+
+📁 Project Structure
+codecommunity/
+│── base/               # Main app (rooms, topics, messages)
+│── users/              # User authentication, profiles
+│── templates/          # HTML templates
+│── static/             # CSS, JS, Images
+│── db.sqlite3          # Default database
+│── manage.py
+│── requirements.txt
+└── README.md
