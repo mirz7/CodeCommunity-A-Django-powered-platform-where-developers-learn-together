@@ -96,66 +96,6 @@ Whether you're learning Python, mastering algorithms, or exploring web developme
 - ⚡ **Fast & Lightweight** - Optimized performance
 - 🔒 **Secure** - Built with Django security best practices
 
----
-
-## 🔧 Tech Stack
-
-<table>
-<tr>
-<td align="center" width="20%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" width="48" height="48" alt="Django" />
-<br><strong>Django</strong>
-<br><sub>Backend</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python" />
-<br><strong>Python</strong>
-<br><sub>Language</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="48" height="48" alt="HTML5" />
-<br><strong>HTML5</strong>
-<br><sub>Structure</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3" />
-<br><strong>CSS3</strong>
-<br><sub>Styling</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript" />
-<br><strong>JavaScript</strong>
-<br><sub>Interactivity</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="20%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" width="48" height="48" alt="SQLite" />
-<br><strong>SQLite</strong>
-<br><sub>Database</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="48" height="48" alt="Git" />
-<br><strong>Git</strong>
-<br><sub>Version Control</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="48" height="48" alt="GitHub" />
-<br><strong>GitHub</strong>
-<br><sub>Hosting</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="48" height="48" alt="VS Code" />
-<br><strong>VS Code</strong>
-<br><sub>IDE</sub>
-</td>
-<td align="center" width="20%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="48" height="48" alt="Bootstrap" />
-<br><strong>Bootstrap</strong>
-<br><sub>Optional</sub>
-</td>
-</tr>
-</table>
 
 ---
 
@@ -378,6 +318,7 @@ Contributions are what make the open-source community such an amazing place to l
 [⬆ Back to Top](#-codecommunity)
 
 </div>
+
 
 
 
